@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.logo {
+  width: 100px;
+}
+
+.portada {
+  width: 99vw;
+  height: 93vh;
+}
+
+.inicio-info1 {
+  height: 46vh;
+}
+
+.inicio-info2 {
+  height: 46vh;
+}
+
+.block-navbar {
+  position: sticky;
+  top: 0;
+}
+
+p {
+  font-size: 25px;
+}
+
+.info-img {
+  width: 70%;
+}
+
+.portada_text {
+  margin-left: 60px;
+  margin-top: -110px;
+  position: absolute;
+  font-size: 5rem;
+  color: #ffffff;
+  font-weight: 600;
+  /* text-shadow: 2px 2px 10px rgb(82, 81, 81); */
+  text-shadow: 3px 3px 10px rgba(40, 40, 40, 1);
+}
+
+.texto_contacto_title {
+  font-size: 3.5rem;
+}
+
+.texto_contacto {
+  font-size: 2rem;
+}
+
+.texto_contacto2 {
+  font-size: 1.5rem;
+}
+
+.icon_contacto {
+  width: 10vw;
+}
+
+.recetas_image {
+  width: 25vw;
+}
+
+.recetas_box {
+  height: 70vh;
+}
+
+.recetas_texto {
+  font-size: medium;
+}
