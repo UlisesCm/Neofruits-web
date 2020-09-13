@@ -65,9 +65,63 @@ p {
 }
 
 .recetas_box {
-  height: 70vh;
+  margin-bottom: 200px;
 }
 
 .recetas_texto {
   font-size: medium;
+}
+
+.etiqueta {
+  margin-top: 10vh;
+}
+
+.navbar {
+  z-index: 10;
+}
+
+.portada-img {
+  width: 100%;
+}
+
+@media screen and (max-height: 1000px) {
+}
+
+@media screen and (max-height: 800px) {
+  .etiqueta {
+    margin-top: 15vh;
+  }
+  .info-img {
+    width: 60%;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .portada_text {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .etiqueta {
+    margin-top: 20vh;
+  }
+  .info-img {
+    width: 60%;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .portada_text {
+    font-size: 4rem;
+  }
+  .recetas_box {
+    margin-bottom: 150px;
+  }
 }
