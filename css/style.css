@@ -64,6 +64,9 @@ p {
 .text-recetas {
   margin-left: 50px;
 }
+.portada-img2 {
+  display: none;
+}
 
 @media screen and (max-width: 575px) {
   .invertir {
@@ -71,8 +74,20 @@ p {
     flex-direction: column-reverse;
   }
   .portada_text {
+<<<<<<< HEAD:css/style.css
     margin-top: -65px !important;
     font-size: 3.5rem !important;
+=======
+    margin-top: -62px !important;
+    font-size: 3rem !important;
+  }
+  .portada-img2 {
+    display: inline;
+    max-width: 100%;
+  }
+  .portada-img {
+    display: none;
+>>>>>>> d131dc88c057e80e6c4a3c5de8deaad6177a6789:style.css
   }
 }
 
@@ -86,9 +101,22 @@ p {
   p {
     font-size: 0.8rem;
   }
+<<<<<<< HEAD:css/style.css
   .portada-img {
     object-fit: cover;
     height: 13vh;
+=======
+  .portada_text {
+    margin-top: -73px !important;
+    font-size: 3.5rem !important;
+  }
+  .portada-img2 {
+    display: inline;
+    max-width: 100%;
+  }
+  .portada-img {
+    display: none;
+>>>>>>> d131dc88c057e80e6c4a3c5de8deaad6177a6789:style.css
   }
 }
 
@@ -103,7 +131,11 @@ p {
     font-size: 1rem;
   }
   .portada_text {
+<<<<<<< HEAD:css/style.css
     margin-top: -75px !important;
+=======
+    margin-top: -82px;
+>>>>>>> d131dc88c057e80e6c4a3c5de8deaad6177a6789:style.css
     font-size: 4rem;
   }
 }
