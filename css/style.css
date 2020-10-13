@@ -1,83 +1,66 @@
 .logo {
   width: 100px;
 }
-
 .portada {
   width: 99vw;
   height: 93vh;
 }
-
 .inicio-info1 {
   height: 46vh;
 }
-
 .inicio-info2 {
   height: 46vh;
 }
-
 .block-navbar {
   position: sticky;
   top: 0;
 }
-
 p {
   font-size: 25px;
 }
-
 .info-img {
   width: 70%;
 }
-
 .portada_text {
   margin-left: 60px;
   margin-top: -105px;
   position: absolute;
   font-size: 5rem;
-  color: #ffffff;
+  color: #fff;
   font-weight: 600;
-  text-shadow: 3px 3px 10px rgba(40, 40, 40, 1);
+  text-shadow: 3px 3px 10px #282828;
 }
-
 .texto_contacto_title {
   font-size: 3.5rem;
 }
-
 .texto_contacto {
   font-size: 2rem;
 }
-
 .texto_contacto2 {
   font-size: 1.5rem;
 }
-
 .icon_contacto {
   width: 10vw;
 }
-
 .recetas_image {
-  width: 25vw;
+  width: 80%;
 }
-
 .recetas_box {
-  margin-bottom: 200px;
+  margin-bottom: 10vh;
 }
-
 .recetas_texto {
   font-size: medium;
 }
-
 .etiqueta {
   margin-top: 10vh;
 }
-
 .navbar {
   z-index: 10;
 }
-
 .portada-img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
-
 .text-recetas {
   margin-left: 50px;
 }
@@ -87,26 +70,13 @@ p {
     display: flex;
     flex-direction: column-reverse;
   }
-  .info-img {
-    width: 60%;
-  }
-
-  .portada-img {
-    width: 100%;
-    height: 70px;
+  .portada_text {
+    margin-top: -65px !important;
+    font-size: 3.5rem !important;
   }
 }
 
 @media screen and (max-width: 620px) {
-  .portada-img {
-    width: 100%;
-    height: 73px;
-  }
-  .portada-text {
-    margin-left: 60px;
-    margin-bottom: 0px;
-    font-size: 4rem;
-  }
   .info-img {
     width: 100%;
   }
@@ -116,11 +86,13 @@ p {
   p {
     font-size: 0.8rem;
   }
-}
-@media screen and (max-width: 770px) {
   .portada-img {
-    height: 78px;
+    object-fit: cover;
+    height: 13vh;
   }
+}
+
+@media screen and (max-width: 780px) {
   .info-img {
     width: 100%;
   }
@@ -130,13 +102,13 @@ p {
   p {
     font-size: 1rem;
   }
+  .portada_text {
+    margin-top: -75px !important;
+    font-size: 4rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
-  .portada-img {
-    width: 100%;
-    height: 100px;
-  }
   .info-img {
     width: 80%;
   }
@@ -146,21 +118,13 @@ p {
   p {
     font-size: 1.2rem;
   }
-  .portada_text {
-    margin-top: -90px;
-    font-size: 4rem;
-  }
 }
+
 @media screen and (max-width: 1000px) {
-  .portada-img {
-    width: 100%;
-  }
   .info-img {
     width: 80%;
   }
 }
-
-/* Alto */
 
 @media screen and (max-height: 600px) {
   .etiqueta {

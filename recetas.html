@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Neo Fruits" />
+    <link rel="icon" href="img/avocado.svg" />
     <meta
       name="keywords"
       content="aguacate, avocado, michoacan, fresa, Freeze-dried"
@@ -13,17 +14,13 @@
     <meta property="og:url" content="https://neofruits.com.mx/" />
     <meta property="og:image" content="./img/logo.png" />
     <meta property="og:description" content="Neo fruits" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
-      integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
-      crossorigin="anonymous"
-    />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>NeoFruits | Recipes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>NeoFruits|Recetas</title>
   </head>
   <body>
     <nav class="block-navbar navbar navbar-expand-lg navbar-light bg-light">
@@ -43,18 +40,18 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="index.html">Home</a>
-          <a class="nav-link" href="productos.html">Products</a>
-          <a class="nav-link" href="recetas.html">Recipes</a>
-          <a class="nav-link" href="contacto.html">Contact</a>
+          <a class="nav-link" href="index.html">Inicio</a>
+          <a class="nav-link" href="productos.html">Productos</a>
+          <a class="nav-link" href="recetas.html">Recetas</a>
+          <a class="nav-link" href="contacto.html">Contacto</a>
         </div>
       </div>
     </nav>
 
     <div>
-      <img class="portada-img" src="img/Banner_recetas.png" alt="" />
+      <img class="portada-img" src="img/Banner_recetas.png" alt="recetas-NeoFruits" />
       <div class="container">
-        <h2 class="portada_text">Recipes</h2>
+        <h2 class="portada_text">Recetas</h2>
       </div>
     </div>
 <!-- Receta guacamole -->
@@ -66,7 +63,7 @@
       <div class="container d-flex justify-content-between">
         <div class="row">
           <div class="container d-flex align-items-center justify-content-center col-sm-12 col-md-12 col-lg-6">
-            <div>
+            <div class="d-flex justify-content-center">
               <img class="recetas_image" src="img/guacamole.png" alt="" />
             </div>
           </div>
@@ -75,51 +72,43 @@
             <div>
               <p>
                 <strong>
-                  Ingredients to make an Guacamole
+                  Ingredientes para Guacamole:
                 </strong>
               </p>
               </p>
               <ul class="recetas_texto">
-                <li>Ingredients for How to Make Easy Mexican Guacamole</li>
-                <li>40 gr of leofilized avocado brand Nëofruits®</li>
-                <li>50 gr. onion</li>
-                <li>1 medium tomato</li>
-                <li>2 tablespoons fresh coriander leaves</li>
-                <li>2 medium juicy lemons</li>
+                <li>40 gr. de Aguacate leofilizado marca Nëofruits®</li>
+                <li>100 gr. de Cebolla</li>
+                <li>1 Jitomate Mediano</li>
+                <li>2 cucharadas de hojas de cilantro fresco</li>
+                <li>Jugo de 2 Limones medianos</li>
                 <li>
-                  Optional (if you like spicy, it's essential): 1 serrano pepper
-                  (if you can't find it, you can use canned jalapeños, chilli or
-                  cayenne)
+                  Opcional (si te gusta el picante, es fundamental): 1 chile serrano (si no lo encuentras puedes utilizar jalapeños en conserva, guindilla o cayena)
                 </li>
-                <li>Salt (to taste at home)</li>
+                <li>Sal (al gusto de casa)</li>
                 <li>
-                  To accompany: Totopos or corn triangles (nachos) even
-                  tortillas or bread
+                  Para acompañar: Totopos o Triangulos de maíz (nachos o frituritas) incluso tortillas o pan.
                 </li>
               </ul>
             </div>
             <div>
               <p>
                 <strong>  
-                  how to make Guacamole
+                  Como prepararlo:
                 </strong>
               </p>
               <ol>
                 <li>
-                  We peel the onion and wash the tomato. We split them into
-                  cubes
+                  Pelamos la cebolla y lavamos el tomate. Los picamos muy finos, lo mas posible, que se vean pero que se note lo justo
                 </li>
                 <li>
-                  We take our Nëofruits® brand freeze-dried avocado and pour it
-                  into a bowl with ¾ glass of water to let it hydrate for 15
-                  minutes.
+                  Tomamos nuestro aguacate liofilizado marca Nëofruits® y lo vaciamos en un tazon con 3/4 de vaso de cagua para dejarlo hidratar por 15 minutos.
                 </li>
                 <li>
-                  So we will avoid leaving and knowing if they are in excellent
-                  condition, since our products are in good condition.
+                  Asi evitaremos partir y saber si estan en un excelente estado, ya que nuestros productos estan en buen estado.
                 </li>
                 <li>
-                  finally crush the ingredients
+                  Finalmente mezclamos los ingredientes hasta optener la textura deseada.
                 </li>
               </ol>
             </div>
@@ -135,12 +124,12 @@
     <div class="recetas_box">
       <!-- Titulo -->
       <div class="container d-flex justify-content-center">
-        <h2 class="m-5">Avocado Sauce</h2>
+        <h2 class="m-5">Salsa de Aguacate</h2>
       </div>
       <div class="container d-flex justify-content-between">
         <div class="row">
           <div class="container d-flex align-items-center justify-content-center col-sm-12 col-md-12 col-lg-6">
-            <div>
+            <div class="d-flex justify-content-center mb-3">
               <img class="recetas_image" src="img/salsa.png" alt="" />
             </div>
           </div>
@@ -149,47 +138,40 @@
             <div>
               <p>
                 <strong>
-                  Ingredients to make an Avocado Sauce
+                  Ingredientes para hacer salsa de Aguacate
                 </strong>
               </p>
               <ul>
-                <li>40 gr of leofilized avocado brand Nëofruits®</li>
-                <li>25 gr. onion (about 1/4 medium onion)
+                <li>40 gr. de Aguacate marca Nëofruits®</li>
+                <li>25 gr. de Cebolla (Aproximadamente 1/4 de la Cebolla)
                 </li>
-                <li>20gr of fresh coriander</li>
-                <li>1 medium green tomato or half of a large one
+                <li>20gr de Cilantro fresco</li>
+                <li>1 Tomate Verde o la mitad de uno grande
                 </li>
-                <li>¼ cup of milk</li>
                 <li>
-                  2 medium juicy lemons
+                  Jugo de 2 Limones medianos
                 </li>
-                <li> Optional (if you like spicy, it is essential): 1 serrano or jalapeño pepper)</li>
+                <li> Opcional (si te gusta el picante, es fundamental): 1 chile Serrano o 1 chile Jalapeño </li>
                 <li>
-                  Salt to taste
+                  Sal al gusto
                 </li>
               </ul>
             </div>
-
             <div>
               <p>
                 <strong>
-                  how to make Avocado Sauce
+                  Como preparar:
                 </strong>
               </p>
               <ol>
                 <li>
-                  Peel the onion and chop it into pieces
+                  Pelar la Cebolla y partirla en trozos
                 </li>
                 <li>
-                  We take our Nëofruits® brand freeze-dried avocado and pour it into a bowl with ¾
-                  glass of water to let it hydrate for 15 minutes.
+                  Tomamos nuestro aguacate liofilizado marca Nëofruits® y lo vaciamos en un tazon con 3/4 de vaso de cagua para dejarlo hidratar por 15 minutos.
                 </li>
                 <li>
-                  So we will avoid leaving and knowing if they are in excellent condition, since our
-                  products are in good condition
-                </li>
-                <li>
-                  finally crush the ingredients
+                  Finalmente trituramos o licuamos los ingredientes hasta tener la textura deseada.
                 </li>
               </ol>
             </div>
